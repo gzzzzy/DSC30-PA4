@@ -59,7 +59,7 @@ public class BSTreeTest {
         while (it.hasNext()) {
             expString+=(it.next()+" ");
         }
-        assertEquals(expString.substring(0,expstring.length()-1), b.printInOrder());
+        assertEquals(expString.substring(0,expString.length()-1), b.printInOrder());
         assertEquals("2 3 4 6 7 9 13 17 18 20", b1.printInOrder());
         assertEquals("17 6 3 2 4 7 13 9 18 20", b1.printPreOrder());
         assertEquals("2 4 3 9 13 7 6 20 18 17", b1.printPostOrder());
