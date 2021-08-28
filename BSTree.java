@@ -280,8 +280,7 @@ public class BSTree<T extends Comparable<? super T>> implements Iterable {
                 s.push(curNode.left);
             }
         }
-        re=re.strip();
-        return re;
+        return re.substring(0, re.length()-1);
     }
 
     /**
@@ -311,8 +310,7 @@ public class BSTree<T extends Comparable<? super T>> implements Iterable {
         while (!temp.isEmpty()) {
             re += (temp.pop().getKey().toString() + delimeter);
         }
-        re=re.strip();
-        return re;
+        return re.substring(0, re.length()-1);
     }
 
     /**
@@ -339,8 +337,7 @@ public class BSTree<T extends Comparable<? super T>> implements Iterable {
             } else
                 curNode = null;
         } while (curNode != null || !s.empty());
-        re=re.strip();
-        return re;
+        return re.substring(0, re.length()-1);
     }
 
     /**
