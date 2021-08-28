@@ -7,9 +7,6 @@
 
 import java.util.*;
 
-import DSC30.PA3.BST;
-import jdk.tools.jlink.resources.plugins;
-
 /**
  * Binary search tree implementation.
  *
